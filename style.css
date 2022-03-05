@@ -20,8 +20,9 @@ body {
     background-blend-mode: darken;
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    border-bottom: 3px solid #4caece;
+    border-bottom: 1px solid #4caece;
 }
 .header h1 {
     color: #4caece;
@@ -40,9 +41,14 @@ section {
 .profile img {
     width: 100%;
     height: inherit;
-    border: 3px solid #4caece;
+    border: 1px solid #4caece;
     border-radius: 10px; 
 }
+.title {
+    color: #4caece;
+    border-right: 1px solid #4caece;
+}
+
 .list ul li {
    list-style: none;
 }
@@ -59,3 +65,10 @@ section {
 .profile p {
     color: rgb(139, 32, 32) !important;
 }
+ /*---- about ----*/
+ #about {
+     padding: 100px 0;
+ }
+ .about-p {
+     font-size: 13px;
+ }

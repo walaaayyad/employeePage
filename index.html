@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
-    
+
 </head>
 <body>
     <!-- start navbar -->
@@ -23,74 +23,99 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
-   
+
             </ul>
           </div>
         </div>
     </nav>
 
     <!-- start header -->
-    <section class="header d-flex justify-content-center align-items-center">
+    <section id="home" class="header d-flex justify-content-center align-items-center">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
-                <h1 class="text-center">Welcome to EmployeeConnect!</h1>   
+                <p class="text-white lead text-center text-capitalize fs-3 mb-0">hello chris,</p>
+                <h1 class="text-center">Welcome to EmployeeConnect!</h1>
                 <p class="text-white lead text-center">We are very happy to have you join our organisation. I hope you are ready to fall in love with your new job and meet your new colleagues. We’ve planned out your first day to help you get acclimated a bit easier.</p>
             </div>
         </div>
     </section>
 
+    <!-- start employee info -->
     <section>
         <div class="container-fluid bg-dark">
             <div class="row d-flex justify-content-center py-4">
-                <div class="col-lg-3 profile">
-                    <img src="./imgs/pexels-andrea-piacquadio-3777943.jpg" alt="">
+                <!-- profile -->
+                <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg profile">
+                            <img src="./imgs/pexels-andrea-piacquadio-3777943.jpg" alt="">
+                        </div>
+                        <div class="col-lg align-self-center title">
+                            <h5>chris warner</h5>
+                            <p>ear nose and throat surgeon - sydney</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 border-end list">
-                    <ul>
-                        <li class="active"><i class="fa-solid fa-circle-check"></i>training plan</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>personal information</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>tax declaration</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>emergencey contact</li>
-                        <li class="active"><i class="fa-solid fa-circle-check"></i>banking</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>superannuation</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>medical</li>
-                        
-                    </ul> 
+                <!-- emp-info -->
+                <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-6 ps-0 list">
+                            <ul>
+                                <li class="active"><i class="fa-solid fa-circle-check"></i>training plan</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>personal information</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>tax declaration</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>emergencey contact</li>
+                                <li class="active"><i class="fa-solid fa-circle-check"></i>banking</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>superannuation</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>medical</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-6 ps-0 list">
+                            <ul>
+                                <li><i class="fa-solid fa-circle-minus"></i>nationality visas</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>professional membership</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>licence</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>education</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>tasks</li>
+                                <li><i class="fa-solid fa-circle-minus"></i>policies</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 list">
-                    <ul>
-                        <li><i class="fa-solid fa-circle-minus"></i>nationality visas</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>professional membership</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>licence</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>education</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>tasks</li>
-                        <li><i class="fa-solid fa-circle-minus"></i>policies</li>
-                    </ul> 
-                </div>
-                
             </div>
         </div>
-        
-        <div class="container pb-5">
-            
-            <p>First, we’ll start with a short stop for morning coffee in the office kitchen. Then we’ll move on to human resources to sign an employment contract, benefit plan forms, and other important paperwork. After that, we’ll get you settled into your new office and set up your phone and computer.</p>
-            <p>In the meantime, if you can go through the onboarding menu below and fill out the relevant forms. If you have any questions, we will be happy to answer. Please don’t hesitate to contact us by email HR@employeeconnect.com or phone 88888028.</p>
-            <p>Once that’s done there will be a brief onboarding process that will introduce you to our policies, culture, and mission. Then you will have a chance to meet your supervisor who will inform you all about your new role at our company.</p>
-            <p>Again, congratulations. We are thrilled to you have you join the team and look forward to meeting you!</p>
-            <p>Best,</p>
-            <p>EmployeeConnect</p>
+    </section>
+
+    <!-- start welcome msg -->
+    <section id="about">
+        <div class="row align-items-center justify-content-center">
+            <!-- video -->
+            <div class="col-lg-5 align-self-center m-3">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/bSWG_DQXuZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- how to start message -->
+            <div class="col-lg-5 align-self-center mt-2 about-p">
+                <p>First, we’ll start with a short stop for morning coffee in the office kitchen. Then we’ll move on to human resources to sign an employment contract, benefit plan forms, and other important paperwork. After that, we’ll get you settled into your new office and set up your phone and computer.</p>
+                <p>In the meantime, if you can go through the onboarding menu below and fill out the relevant forms. If you have any questions, we will be happy to answer. Please don’t hesitate to contact us by email HR@employeeconnect.com or phone 88888028.</p>
+                <p>Once that’s done there will be a brief onboarding process that will introduce you to our policies, culture, and mission. Then you will have a chance to meet your supervisor who will inform you all about your new role at our company.</p>
+                <p>Again, congratulations. We are thrilled to you have you join the team and look forward to meeting you!</p>
+                <p>Best,</p>
+                <p>EmployeeConnect</p>
+            </div>
         </div>
     </section>
-    
-    
+
+
     <!--Google map
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6625.162672097723!2d151.21555!3d-33.874679!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae140efb6175%3A0xccc2d7c75c39856c!2s58%20Riley%20St%2C%20Darlinghurst%20NSW%202010!5e0!3m2!1sen!2sau!4v1646416757170!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     Google Maps-->
