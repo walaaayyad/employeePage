@@ -62,9 +62,6 @@ section {
     color: #545454b5;
 }
 
-.profile p {
-    color: rgb(139, 32, 32) !important;
-}
  /*---- about ----*/
  #about {
      padding: 100px 0;
@@ -72,3 +69,17 @@ section {
  .about-p {
      font-size: 13px;
  }
+
+ /*---- FAQ ----*/
+ #help {
+     background-color: #fff;
+     padding-bottom: 100px;
+ }
+ #help h2 {
+     color: #555;
+ }
+ .accordion-button:not(.collapsed) {
+     background-color: #212529;
+     color: #4caece;
+ }
+ 
