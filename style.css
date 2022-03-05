@@ -1,0 +1,61 @@
+/* #4caece */
+body {
+    font-family: serif;
+}
+.navbar {
+    border-bottom: 1px solid #4caece;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #4caece !important;
+}
+.navbar-collapse {
+    flex-grow: unset;
+}
+
+/*---- header ----*/
+.header {
+    height: 50vh;
+    background-image: url('./imgs/pexels-fauxels-3184419.jpg'); /*- Photo by fauxels from Pexels -*/
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    border-bottom: 3px solid #4caece;
+}
+.header h1 {
+    color: #4caece;
+}
+
+/*---- profile ----*/
+section {
+    background-color: #eee;
+    color: #555;
+}
+.profile {
+    width: 250px;
+    height: 200px;
+    margin-left: 15px;
+}
+.profile img {
+    width: 100%;
+    height: inherit;
+    border: 3px solid #4caece;
+    border-radius: 10px; 
+}
+.list ul li {
+   list-style: none;
+}
+.list ul li.active {
+    color: #4caece;
+}
+.list .fa-solid {
+    margin-right: 7px;
+}
+.list .fa-circle-minus {
+    color: #545454b5;
+}
+
+.profile p {
+    color: rgb(139, 32, 32) !important;
+}
