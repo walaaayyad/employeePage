@@ -1,7 +1,13 @@
 /* #4caece */
 body {
     font-family: serif;
+    overflow-x: hidden;
 }
+/*---- top ----*/
+.top {
+    color: #4caece;
+}
+/*---- navbar ----*/
 .navbar {
     border-bottom: 1px solid #4caece;
 }
@@ -19,15 +25,24 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     border-bottom: 1px solid #4caece;
+    position: relative;
 }
 .header h1 {
     color: #4caece;
 }
-
+.header .fa-solid {
+    color: #4caece;
+    font-size: 20px;
+    border: 1px solid #4caece;
+    padding: 3px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
 /*---- profile ----*/
 section {
     background-color: #eee;
@@ -69,7 +84,17 @@ section {
  .about-p {
      font-size: 13px;
  }
-
+/*---- policies ----*/
+#policies {
+    background-color: #4caece;
+    color: #eee;
+    padding: 50px 0;
+}
+#policies .btn {
+    background-color: #fff;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem !important;
+}
  /*---- FAQ ----*/
  #help {
      background-color: #fff;
@@ -82,4 +107,14 @@ section {
      background-color: #212529;
      color: #4caece;
  }
+
+ /*---- footer ----*/
+footer {
+    border-top: 1px solid #4caece;
+    color: #4caece;
+}
+footer .fa-brands {
+    font-size: 20px;
+    margin: 3px;
+}
  
