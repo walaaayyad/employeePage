@@ -2,6 +2,7 @@
 body {
     font-family: serif;
     overflow-x: hidden;
+    background-color: #eee;
 }
 /*---- top ----*/
 .top {
@@ -10,6 +11,7 @@ body {
 /*---- navbar ----*/
 .navbar {
     border-bottom: 1px solid #4caece;
+    background-color: #fff;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #4caece !important;
@@ -59,19 +61,19 @@ section {
     border: 1px solid #4caece;
     border-radius: 10px; 
 }
-.title {
-    color: #4caece;
-    border-right: 1px solid #4caece;
+.border-end {
+   
 }
-
 .list ul li {
    list-style: none;
+   display: flex;
+    justify-content: space-between;
 }
-.list ul li.active {
+.list ul li .fa-circle-check {
     color: #4caece;
 }
 .list .fa-solid {
-    margin-right: 7px;
+    
 }
 .list .fa-circle-minus {
     color: #545454b5;
@@ -79,10 +81,35 @@ section {
 
  /*---- about ----*/
  #about {
-     padding: 100px 0;
+     padding: 50px 0;
  }
  .about-p {
      font-size: 13px;
+ }
+ /*---- training ----*/
+ #training {
+     background-color: #4caece30;
+     padding: 50px 0;
+ }
+ #training span,
+ #training .fa-solid {
+     color: #4caece;
+ }
+ .training .fa-solid {
+     font-size: 30px;
+     margin: 10px auto;
+ }
+ .our-progress {
+     border: 2px solid #4caece;
+ }
+ .our-progress .num {
+     color: #4caece;
+     font-size: 3rem;
+ }
+ .our-progress p {
+     color: #eee;
+     font-size: 1.5rem;
+     text-transform: uppercase;
  }
 /*---- policies ----*/
 #policies {
@@ -91,21 +118,32 @@ section {
     padding: 50px 0;
 }
 #policies .btn {
-    background-color: #fff;
+    color: #eee;
+    border: 1px solid #eee;
+    border-radius: 20px;
     font-size: 0.7rem;
     padding: 0.1rem 0.5rem !important;
+    transition: all 0.4s ease;
+}
+#policies .btn:hover {
+    background-color: #eee;
+    color: #212529;
+}
+/*---- news ----*/
+#news {
+    margin: 50px auto;
 }
  /*---- FAQ ----*/
  #help {
-     background-color: #fff;
+     background-color: #4caece30;
      padding-bottom: 100px;
  }
  #help h2 {
      color: #555;
  }
  .accordion-button:not(.collapsed) {
-     background-color: #212529;
-     color: #4caece;
+     background-color: #4caece;
+     color: #eee;
  }
 
  /*---- footer ----*/
